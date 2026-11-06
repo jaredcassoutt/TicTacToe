@@ -109,3 +109,7 @@ def createScreen(positionArr = range(1,10)):
     print(f" {str(positionArr[3])}|{str(positionArr[4])}|{str(positionArr[5])}")
     print(f"-------")
     print(f" {str(positionArr[6])}|{str(positionArr[7])}|{str(positionArr[8])}")
+
+
+if __name__ == "__main__":
+    TicTacToe()
