@@ -15,6 +15,8 @@ def TicTacToe():
         pickedSpot = requestInput(spacesLeft)
         displayArr[pickedSpot-1] = 'X'
         enderText = checkWinner(displayArr)
+        if enderText != "No Winner":
+            break
         if len(spacesLeft) > 0:
             CPUPickedSpot = cpuPlayer(spacesLeft)
             displayArr[CPUPickedSpot-1] = 'O'
